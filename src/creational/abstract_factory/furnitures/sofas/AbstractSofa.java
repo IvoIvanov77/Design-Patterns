@@ -10,7 +10,7 @@ abstract class AbstractSofa implements Sofa {
     }
 
     @Override
-    public void eat() {
+    public void watchTv() {
         System.out.println(this.getClass().getSimpleName());
         System.out.println(this.name);
     }
